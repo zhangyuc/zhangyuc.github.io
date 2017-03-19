@@ -33,7 +33,7 @@
 
         <paper>
             <title>Optimal Prediction for Sparse Linear Models? Lower Bounds for Coordinate-separable M-estimator</title>
-            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang17ejs.pdf</url></link>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang17ejs.pdf</url></link>
             <authors>Y. Zhang, M. Wainwright, MI. Jordan</authors>
             <journal>Electronic Journal of Statistics</journal>
         </paper>
@@ -68,7 +68,7 @@
 
         <paper>
             <title>The Antimagicness of the Cartesian Product of Graphs</title>
-            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang09tcs.pdf</url></link>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang09tcs.pdf</url></link>
             <authors>Y. Zhang and X. Sun</authors>
             <journal>Theoretical Computer Science</journal>
         </paper>
@@ -78,7 +78,7 @@
 
         <paper>
             <title>On the Learnability of Fully-connected Neural Networks</title>
-            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang17aistats.pdf</url></link>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang17aistats.pdf</url></link>
             <link><text>arXiv</text><url>http://arxiv.org/abs/1511.07948</url></link>
             <authors>Y. Zhang, JD. Lee, M. Wainwright, MI. Jordan</authors>
             <journal>Artificial Intelligence and Statistics (AISTATS'17)</journal>
@@ -141,7 +141,7 @@
 
         <paper>
             <title>Taxonomy Discovery for Personalized Recommendation</title>
-            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang14wsdm.pdf</url></link>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang14wsdm.pdf</url></link>
             <authors>Y. Zhang A. Ahmed, V. Josifovski, A. Smola</authors>
             <journal>ACM International Conference on Web Search and Data Mining (WSDM'14)</journal>
         </paper>
@@ -169,49 +169,49 @@
 
         <paper>
             <title>A Noise-aware Click Model for Web Search</title>
-            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/chen12wsdm.pdf</url></link>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/chen12wsdm.pdf</url></link>
             <authors>W. Chen, D. Wang, Y. Zhang, Q. Yang</authors>
             <journal>ACM International Conference on Web Search and Data Mining (WSDM'12)</journal>
         </paper>
 
         <paper>
             <title>User-click Modeling for Understanding and Predicting Search-behavior</title>
-            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang11kdd.pdf</url></link>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang11kdd.pdf</url></link>
             <authors>Y. Zhang, W. Chen, D. Wang, Q. Yang</authors>
             <journal>ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'11)</journal>
         </paper>
 
         <paper>
             <title>Characterize Search Intent Diversity into Click Models</title>
-            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/hu11www.pdf</url></link>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/hu11www.pdf</url></link>
             <authors>B. Hu, Y. Zhang, W. Chen, G. Wang, Q. Yang</authors>
             <journal>International World Wide Web Conference (WWW'11)</journal>
         </paper>
 
         <paper>
             <title>Learning Click Model via Probit Bayesian Inference</title>
-            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang10cikm.pdf</url></link>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang10cikm.pdf</url></link>
             <authors>Y. Zhang, D. Wang, G. Wang, W. Chen, Z. Zhang, B. Hu, L. Zhang</authors>
             <journal>ACM Conference on Information and Knowledge Management (CIKM'10)</journal>
         </paper>
 
         <paper>
             <title>Explore click models for search ranking</title>
-            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/wang10cikm.pdf</url></link>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/wang10cikm.pdf</url></link>
             <authors>D. Wang, W. Chen, G. Wang, Y. Zhang, B. Hu</authors>
             <journal>ACM Conference on Information and Knowledge Management (CIKM'10)</journal>
         </paper>
 
         <paper>
             <title>Incorporating Post-Click Behaviors Into a Click Model</title>
-            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhong10sigir.pdf</url></link>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhong10sigir.pdf</url></link>
             <authors>F. Zhong, D. Wang, G. Wang, W. Chen, Y. Zhang, Z. Chen, H. Wang</authors>
             <journal>ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'10)</journal>
         </paper>
 
         <paper>
             <title>Extracting Independent Rules: a New Perspective of Boosting</title>
-            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang09isaim.pdf</url></link>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang09isaim.pdf</url></link>
             <authors>Y. Zhang and L. Zhang</authors>
             <journal>International Symposium on Artificial Intelligence and Mathematics (ISAIM'10)</journal>
         </paper>
