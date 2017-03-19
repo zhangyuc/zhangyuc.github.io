@@ -1,0 +1,219 @@
+<xml>
+    <category>
+        <name>Manuscripts</name>
+	
+	<paper>
+            <title>A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics</title>
+            <link><text>arXiv</text><url>https://arxiv.org/abs/1702.05575</url></link>
+            <authors>Y. Zhang, P. Liang, M. Charikar</authors>
+        </paper>
+
+        <paper>
+            <title>Convexified Convolutional Neural Networks</title>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1609.01000</url></link>
+            <authors>Y. Zhang, P. Liang, M. Wainwright</authors>
+        </paper>
+
+        <paper>
+            <title>Splash: User-friendly Programming Interface for Parallelizing Stochastic Algorithms</title>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1506.07552</url></link>
+            <link><text>project website</text><url>https://zhangyuc.github.io/splash/</url></link>
+            <authors>Y. Zhang and MI. Jordan</authors> 
+        </paper>
+
+        <paper>
+            <title>Optimality Guarantees for Distributed Statistical Estimation</title>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1405.0782</url></link>
+            <authors>J. Duchi, MI. Jordan, M. Wainwright, Y. Zhang</authors>
+        </paper>
+
+    </category>
+    <category>
+        <name>Journal Publications</name>
+
+        <paper>
+            <title>Optimal Prediction for Sparse Linear Models? Lower Bounds for Coordinate-separable M-estimator</title>
+            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang17ejs.pdf</url></link>
+            <authors>Y. Zhang, M. Wainwright, MI. Jordan</authors>
+            <journal>Electronic Journal of Statistics</journal>
+        </paper>
+
+        <paper>
+            <title>On Bayes Risk Lower Bounds</title>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1410.0503</url></link>
+            <authors>X. Chen, A. Guntuboyina, Y. Zhang</authors>
+            <journal>Journal of Machine Learning Research (to appear)</journal>
+        </paper>
+
+        <paper>
+            <title>Spectral Methods meet EM: A Provably Optimal Algorithm for Crowdsourcing</title>
+            <link><text>pdf</text><url>http://jmlr.org/papers/volume17/14-511/14-511.pdf</url></link>
+            <authors>Y. Zhang , X. Chen, D. Zhou, MI. Jordan</authors>
+            <journal>Journal of Machine Learning Research</journal>
+        </paper>
+
+        <paper>
+            <title>Divide and Conquer Kernel Ridge Regression: A Distributed Algorithm with Minimax Optimal Rates</title>
+            <link><text>pdf</text><url>http://jmlr.org/papers/volume16/zhang15d/zhang15d.pdf</url></link>
+            <authors>Y. Zhang , J. Duchi, M. Wainwright</authors>
+            <journal>Journal of Machine Learning Research</journal>
+        </paper>
+
+        <paper>
+            <title>Communication-Efficient Algorithms for Statistical Optimization</title>
+            <link><text>pdf</text><url>http://www.jmlr.org/papers/volume14/zhang13b/zhang13b.pdf</url></link>
+            <authors>Y. Zhang , J. Duchi, M. Wainwright</authors>
+            <journal>Journal of Machine Learning Research</journal>
+        </paper>
+
+        <paper>
+            <title>The Antimagicness of the Cartesian Product of Graphs</title>
+            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang09tcs.pdf</url></link>
+            <authors>Y. Zhang and X. Sun</authors>
+            <journal>Theoretical Computer Science</journal>
+        </paper>
+    </category>
+    <category>
+        <name>Conference Proceedings</name>
+
+        <paper>
+            <title>On the Learnability of Fully-connected Neural Networks</title>
+            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang17aistats.pdf</url></link>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1511.07948</url></link>
+            <authors>Y. Zhang, JD. Lee, M. Wainwright, MI. Jordan</authors>
+            <journal>Artificial Intelligence and Statistics (AISTATS'17)</journal>
+        </paper>
+
+        <paper>
+            <title>Local Maxima in the Likelihood of Gaussian Mixture Models: Structural Results and Algorithmic Consequences</title>
+	    <link><text>pdf</text><url>http://papers.nips.cc/paper/6324-local-maxima-in-the-likelihood-of-gaussian-mixture-models-structural-results-and-algorithmic-consequences.pdf</url></link>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1609.00978</url></link>
+            <authors>C. Jin, Y. Zhang, S. Balakrishnan, M. Wainwright, MI. Jordan</authors>
+            <journal>Neural Information Processing System (NIPS'16)</journal>
+        </paper>
+
+        <paper>
+            <title>L1-regularized Neural Networks are Improperly Learnable in Polynomial Time</title>
+            <link><text>pdf</text><url>http://www.jmlr.org/proceedings/papers/v48/zhangd16.pdf</url></link>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1510.03528</url></link>
+            <authors>Y. Zhang, JD. Lee, MI. Jordan</authors>
+            <journal>International Conference on Machine Learning (ICML'16)</journal>
+        </paper>
+
+        <paper>
+            <title>Distributed Estimation of Generalized Matrix Rank: Efficient Algorithms and Lower Bounds</title>
+            <link><text>pdf</text><url>http://jmlr.org/proceedings/papers/v37/zhangc15.pdf</url></link>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1502.01403</url></link>
+            <authors>Y. Zhang, M. Wainwright, MI. Jordan</authors>
+            <journal>International Conference on Machine Learning (ICML'15)</journal>
+        </paper>
+
+        <paper>
+            <title>DiSCO: Communication-Efficient Distributed Optimization of Self-Concordant Loss</title>
+            <link><text>pdf</text><url>http://jmlr.org/proceedings/papers/v37/zhangb15.pdf</url></link>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1501.00263</url></link>
+            <authors>Y. Zhang, L. Xiao</authors>
+            <journal>International Conference on Machine Learning (ICML'15)</journal>
+        </paper>
+
+        <paper>
+            <title>Stochastic Primal-Dual Coordinate Method for Regularized Empirical Risk Minimization</title>
+            <link><text>pdf</text><url>http://jmlr.org/proceedings/papers/v37/zhanga15.pdf</url></link>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1409.3257</url></link>
+            <authors>Y. Zhang, L. Xiao</authors>
+            <journal>International Conference on Machine Learning (ICML'15)</journal>
+        </paper>
+
+        <paper>
+            <title>Spectral Methods meet EM: A Provably Optimal Algorithm for Crowdsourcing</title>
+            <link><text>pdf</text><url>https://papers.nips.cc/paper/5431-spectral-methods-meet-em-a-provably-optimal-algorithm-for-crowdsourcing.pdf</url></link>
+            <authors>Y. Zhang, X. Chen, D. Zhou, MI. Jordan</authors>
+            <journal>Neural Information Processing System (NIPS'14)</journal>
+        </paper>
+
+        <paper>
+            <title>Lower Bounds on the Performance of Polynomial-time Algorithms for Sparse Linear Regression</title>
+            <link><text>pdf</text><url>http://www.jmlr.org/proceedings/papers/v35/zhang14.pdf</url></link>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1402.1918</url></link>
+            <authors>Y. Zhang, M. Wainwright, MI. Jordan</authors>
+            <journal>Annual Conference on Learning Theory (COLT'14)</journal>
+        </paper>
+
+        <paper>
+            <title>Taxonomy Discovery for Personalized Recommendation</title>
+            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang14wsdm.pdf</url></link>
+            <authors>Y. Zhang A. Ahmed, V. Josifovski, A. Smola</authors>
+            <journal>ACM International Conference on Web Search and Data Mining (WSDM'14)</journal>
+        </paper>
+
+        <paper>
+            <title>Information-theoretic Lower Bounds for Distributed Statistical Estimation with Communication Constraints</title>
+            <link><text>pdf</text><url>https://papers.nips.cc/paper/4902-information-theoretic-lower-bounds-for-distributed-statistical-estimation-with-communication-constraints.pdf</url></link>
+            <authors>Y. Zhang, J. Duchi, MI. Jordan, M. Wainwright</authors>
+            <journal>Neural Information Processing System (NIPS'13)</journal>
+        </paper>
+
+        <paper>
+            <title>Divide and Conquer Kernel Ridge Regression</title>
+            <link><text>pdf</text><url>http://www.jmlr.org/proceedings/papers/v30/Zhang13.pdf</url></link>
+            <authors>Y. Zhang , J. Duchi, M. Wainwright</authors>
+            <journal>Annual Conference on Learning Theory (COLT'13)</journal>
+        </paper>
+
+        <paper>
+            <title>Communication-Efficient Algorithms for Statistical Optimization</title>
+            <link><text>pdf</text><url>https://papers.nips.cc/paper/4728-communication-efficient-algorithms-for-statistical-optimization.pdf</url></link>
+            <authors>Y. Zhang , J. Duchi, M. Wainwright</authors>
+            <journal>Neural Information Processing System (NIPS'12)</journal>
+        </paper>
+
+        <paper>
+            <title>A Noise-aware Click Model for Web Search</title>
+            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/chen12wsdm.pdf</url></link>
+            <authors>W. Chen, D. Wang, Y. Zhang, Q. Yang</authors>
+            <journal>ACM International Conference on Web Search and Data Mining (WSDM'12)</journal>
+        </paper>
+
+        <paper>
+            <title>User-click Modeling for Understanding and Predicting Search-behavior</title>
+            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang11kdd.pdf</url></link>
+            <authors>Y. Zhang, W. Chen, D. Wang, Q. Yang</authors>
+            <journal>ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'11)</journal>
+        </paper>
+
+        <paper>
+            <title>Characterize Search Intent Diversity into Click Models</title>
+            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/hu11www.pdf</url></link>
+            <authors>B. Hu, Y. Zhang, W. Chen, G. Wang, Q. Yang</authors>
+            <journal>International World Wide Web Conference (WWW'11)</journal>
+        </paper>
+
+        <paper>
+            <title>Learning Click Model via Probit Bayesian Inference</title>
+            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang10cikm.pdf</url></link>
+            <authors>Y. Zhang, D. Wang, G. Wang, W. Chen, Z. Zhang, B. Hu, L. Zhang</authors>
+            <journal>ACM Conference on Information and Knowledge Management (CIKM'10)</journal>
+        </paper>
+
+        <paper>
+            <title>Explore click models for search ranking</title>
+            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/wang10cikm.pdf</url></link>
+            <authors>D. Wang, W. Chen, G. Wang, Y. Zhang, B. Hu</authors>
+            <journal>ACM Conference on Information and Knowledge Management (CIKM'10)</journal>
+        </paper>
+
+        <paper>
+            <title>Incorporating Post-Click Behaviors Into a Click Model</title>
+            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhong10sigir.pdf</url></link>
+            <authors>F. Zhong, D. Wang, G. Wang, W. Chen, Y. Zhang, Z. Chen, H. Wang</authors>
+            <journal>ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR'10)</journal>
+        </paper>
+
+        <paper>
+            <title>Extracting Independent Rules: a New Perspective of Boosting</title>
+            <link><text>pdf</text><url>https://people.eecs.berkeley.edu/~yuczhang/files/zhang09isaim.pdf</url></link>
+            <authors>Y. Zhang and L. Zhang</authors>
+            <journal>International Symposium on Artificial Intelligence and Mathematics (ISAIM'10)</journal>
+        </paper>
+    </category>
+</xml>
