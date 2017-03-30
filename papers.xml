@@ -11,6 +11,7 @@
         <paper>
             <title>Convexified Convolutional Neural Networks</title>
             <link><text>arXiv</text><url>http://arxiv.org/abs/1609.01000</url></link>
+	    <link><text>code</text><url>https://github.com/zhangyuc/CCNN</url></link>
             <authors>Y. Zhang, P. Liang, M. Wainwright</authors>
         </paper>
 
@@ -18,6 +19,7 @@
             <title>Splash: User-friendly Programming Interface for Parallelizing Stochastic Algorithms</title>
             <link><text>arXiv</text><url>http://arxiv.org/abs/1506.07552</url></link>
             <link><text>project website</text><url>https://zhangyuc.github.io/splash/</url></link>
+	    <link><text>code</text><url>https://github.com/zhangyuc/splash/tree/master</url></link>
             <authors>Y. Zhang and MI. Jordan</authors> 
         </paper>
 
@@ -48,6 +50,7 @@
         <paper>
             <title>Spectral Methods meet EM: A Provably Optimal Algorithm for Crowdsourcing</title>
             <link><text>pdf</text><url>http://jmlr.org/papers/volume17/14-511/14-511.pdf</url></link>
+	    <link><text>code</text><url>https://github.com/zhangyuc/SpectralMethodsMeetEM</url></link>
             <authors>Y. Zhang , X. Chen, D. Zhou, MI. Jordan</authors>
             <journal>Journal of Machine Learning Research</journal>
         </paper>
