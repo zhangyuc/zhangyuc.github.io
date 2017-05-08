@@ -1,12 +1,6 @@
 <xml>
     <category>
         <name>Manuscripts</name>
-	
-	<paper>
-            <title>A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics</title>
-            <link><text>arXiv</text><url>https://arxiv.org/abs/1702.05575</url></link>
-            <authors>Y. Zhang, P. Liang, M. Charikar</authors>
-        </paper>
 
         <paper>
             <title>Convexified Convolutional Neural Networks</title>
@@ -78,6 +72,13 @@
     </category>
     <category>
         <name>Conference Proceedings</name>
+	
+		<paper>
+	        <title>A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics</title>
+	        <link><text>arXiv</text><url>https://arxiv.org/abs/1702.05575</url></link>
+	        <authors>Y. Zhang, P. Liang, M. Charikar</authors>
+	        <journal>Annual Conference on Learning Theory (COLT'17)</journal>
+	    </paper>
 
         <paper>
             <title>On the Learnability of Fully-connected Neural Networks</title>
