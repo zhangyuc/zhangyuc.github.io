@@ -3,13 +3,6 @@
         <name>Manuscripts</name>
 
         <paper>
-            <title>Convexified Convolutional Neural Networks</title>
-            <link><text>arXiv</text><url>http://arxiv.org/abs/1609.01000</url></link>
-	    <link><text>code</text><url>https://github.com/zhangyuc/CCNN</url></link>
-            <authors>Y. Zhang, P. Liang, M. Wainwright</authors>
-        </paper>
-
-        <paper>
             <title>Splash: User-friendly Programming Interface for Parallelizing Stochastic Algorithms</title>
             <link><text>arXiv</text><url>http://arxiv.org/abs/1506.07552</url></link>
             <link><text>project website</text><url>https://zhangyuc.github.io/splash/</url></link>
@@ -72,7 +65,14 @@
     </category>
     <category>
         <name>Conference Proceedings</name>
-	
+		<paper>
+            <title>Convexified Convolutional Neural Networks</title>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1609.01000</url></link>
+	    	<link><text>code</text><url>https://github.com/zhangyuc/CCNN</url></link>
+            <authors>Y. Zhang, P. Liang, M. Wainwright</authors>
+            <journal>International Conference on Machine Learning (ICML'17)</journal>
+        </paper>
+
 		<paper>
 	        <title>A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics</title>
 	        <link><text>arXiv</text><url>https://arxiv.org/abs/1702.05575</url></link>
