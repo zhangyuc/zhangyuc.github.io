@@ -6,7 +6,7 @@
             <title>Splash: User-friendly Programming Interface for Parallelizing Stochastic Algorithms</title>
             <link><text>arXiv</text><url>http://arxiv.org/abs/1506.07552</url></link>
             <link><text>project website</text><url>https://zhangyuc.github.io/splash/</url></link>
-	    <link><text>code</text><url>https://github.com/zhangyuc/splash/tree/master</url></link>
+	    <link><text>GitHub</text><url>https://github.com/zhangyuc/splash/tree/master</url></link>
             <authors>Y. Zhang and MI. Jordan</authors> 
         </paper>
 
@@ -37,7 +37,7 @@
         <paper>
             <title>Spectral Methods meet EM: A Provably Optimal Algorithm for Crowdsourcing</title>
             <link><text>pdf</text><url>http://jmlr.org/papers/volume17/14-511/14-511.pdf</url></link>
-	    <link><text>code</text><url>https://github.com/zhangyuc/SpectralMethodsMeetEM</url></link>
+	    <link><text>GitHub</text><url>https://github.com/zhangyuc/SpectralMethodsMeetEM</url></link>
             <authors>Y. Zhang , X. Chen, D. Zhou, MI. Jordan</authors>
             <journal>Journal of Machine Learning Research</journal>
         </paper>
@@ -67,14 +67,17 @@
         <name>Conference Proceedings</name>
 		<paper>
             <title>Convexified Convolutional Neural Networks</title>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang17icml.pdf</url></link>
             <link><text>arXiv</text><url>http://arxiv.org/abs/1609.01000</url></link>
-	    	<link><text>code</text><url>https://github.com/zhangyuc/CCNN</url></link>
+	    	<link><text>GitHub</text><url>https://github.com/zhangyuc/CCNN</url></link>
+	    	<link><text>CodaLab</text><url>https://worksheets.codalab.org/worksheets/0x1468d91a878044fba86a5446f52aacde/</url></link>
             <authors>Y. Zhang, P. Liang, M. Wainwright</authors>
             <journal>International Conference on Machine Learning (ICML'17)</journal>
         </paper>
 
 		<paper>
 	        <title>A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics</title>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang17colt.pdf</url></link>
 	        <link><text>arXiv</text><url>https://arxiv.org/abs/1702.05575</url></link>
 	        <authors>Y. Zhang, P. Liang, M. Charikar</authors>
 	        <journal>Annual Conference on Learning Theory (COLT'17)</journal>
