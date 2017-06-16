@@ -50,7 +50,10 @@ for category in root.iter('category'):
             writeline(span_wrap(authors, color='#7F7F7F'))
 
         for journal in paper.iter('journal'):
-            writeline(span_wrap(journal.text, color='#7F7F7F'))
+            text = journal.text
+            if (len(paper.findall('award')) == 1):
+                text += '&nbsp&nbsp&nbsp&nbsp' + span_wrap('<strong>%s</strong>' % paper.findall('award')[0].text)
+            writeline(span_wrap(text, color='#7F7F7F'))
 
 # end of file
 write_blank_line()
