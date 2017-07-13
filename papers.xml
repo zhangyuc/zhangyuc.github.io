@@ -21,6 +21,13 @@
         <name>Journal Publications</name>
 
         <paper>
+            <title>Stochastic Primal-Dual Coordinate Method for Regularized Empirical Risk Minimization</title>
+            <link><text>arXiv</text><url>http://arxiv.org/abs/1409.3257</url></link>
+            <authors>Y. Zhang, L. Xiao</authors>
+            <journal>Journal of Machine Learning Research</journal>
+        </paper>
+
+        <paper>
             <title>Optimal Prediction for Sparse Linear Models? Lower Bounds for Coordinate-separable M-estimator</title>
             <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang17ejs.pdf</url></link>
             <authors>Y. Zhang, M. Wainwright, MI. Jordan</authors>
@@ -65,7 +72,14 @@
     </category>
     <category>
         <name>Conference Proceedings</name>
+
 		<paper>
+            <title>Inducing Macro Grammars for Efficient Semantic Parsing</title>
+            <authors>Y. Zhang, P. Pasupat, P. Liang</authors>
+            <journal>Empirical Methods on Natural Language Processing (EMNLP'17)</journal>
+        </paper>
+
+        <paper>
             <title>Convexified Convolutional Neural Networks</title>
             <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang17icml.pdf</url></link>
             <link><text>arXiv</text><url>http://arxiv.org/abs/1609.01000</url></link>
@@ -80,7 +94,7 @@
             <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang17colt.pdf</url></link>
 	        <link><text>arXiv</text><url>https://arxiv.org/abs/1702.05575</url></link>
 	        <authors>Y. Zhang, P. Liang, M. Charikar</authors>
-	        <journal>Annual Conference on Learning Theory (COLT'17)</journal>
+	        <journal>Conference on Learning Theory (COLT'17)</journal>
             <award>Best Paper Award</award>
 	    </paper>
 
@@ -127,7 +141,6 @@
         <paper>
             <title>Stochastic Primal-Dual Coordinate Method for Regularized Empirical Risk Minimization</title>
             <link><text>pdf</text><url>http://jmlr.org/proceedings/papers/v37/zhanga15.pdf</url></link>
-            <link><text>arXiv</text><url>http://arxiv.org/abs/1409.3257</url></link>
             <authors>Y. Zhang, L. Xiao</authors>
             <journal>International Conference on Machine Learning (ICML'15)</journal>
         </paper>
@@ -144,7 +157,7 @@
             <link><text>pdf</text><url>http://www.jmlr.org/proceedings/papers/v35/zhang14.pdf</url></link>
             <link><text>arXiv</text><url>http://arxiv.org/abs/1402.1918</url></link>
             <authors>Y. Zhang, M. Wainwright, MI. Jordan</authors>
-            <journal>Annual Conference on Learning Theory (COLT'14)</journal>
+            <journal>Conference on Learning Theory (COLT'14)</journal>
         </paper>
 
         <paper>
@@ -165,7 +178,7 @@
             <title>Divide and Conquer Kernel Ridge Regression</title>
             <link><text>pdf</text><url>http://www.jmlr.org/proceedings/papers/v30/Zhang13.pdf</url></link>
             <authors>Y. Zhang , J. Duchi, M. Wainwright</authors>
-            <journal>Annual Conference on Learning Theory (COLT'13)</journal>
+            <journal>Conference on Learning Theory (COLT'13)</journal>
         </paper>
 
         <paper>
