@@ -74,7 +74,9 @@
         <name>Conference Proceedings</name>
 
 		<paper>
-            <title>Inducing Macro Grammars for Efficient Semantic Parsing</title>
+            <title>Macro Grammars and Holistic Triggering for Efficient Semantic Parsing</title>
+            <link><text>pdf</text><url>https://zhangyuc.github.io/files/zhang17emnlp.pdf</url></link>
+            <link><text>CodaLab</text><url>https://worksheets.codalab.org/worksheets/0x4d6dbfc5ec7f44a6a4da4ca2a9334d6e/</url></link>
             <authors>Y. Zhang, P. Pasupat, P. Liang</authors>
             <journal>Empirical Methods on Natural Language Processing (EMNLP'17)</journal>
         </paper>
