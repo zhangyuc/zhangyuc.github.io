@@ -1,0 +1,299 @@
+\documentclass{res} % default is 10 pt
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textheight}{8.5in} % increase text height to fit resume on 1 page
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage[colorlinks,urlcolor=blue,linkcolor=blue,anchorcolor=blue,citecolor=blue]{hyperref}
+\usepackage{enumitem}
+
+\newenvironment{my_item}{
+\begin{itemize}
+  \setlength{\itemsep}{0pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}}
+{\end{itemize}
+}
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\LARGE\bf Yuchen Zhang}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+\address{\bf\small  CONTACT\\\url{https://zhangyuc.github.io/}\\
+ Email: zhangyuc@cs.stanford.edu\\ Phone: (+1)-510-423-1353}
+\address{\bf\small  ADDRESS\\Gates Computer Science 254,\\Stanford University,\\Stanford, CA 94305.}
+
+\begin{resume}
+
+{\Large\bf Education}
+
+\vspace{-5pt}
+\textbf{University of California, Berkeley}\hfill\textbf{2011 - 2016}\\
+Doctor of Philosophy in Computer Science\\
+{Advised by Michael I. Jordan and Martin J. Wainwright}
+
+\vspace{-5pt}
+\textbf{University of California, Berkeley} \hfill\textbf{2011 - 2013}\\
+Master of Arts in Statistics
+
+\vspace{-5pt}
+\textbf{Tsinghua University}\hfill\textbf{2007 - 2011}\\
+Bachelor of Engineering in Computer Science\\
+{Supervised by Andrew C. Yao}
+
+{\Large\bf Employment}
+
+\vspace{-5pt}
+{\bf Post-doc Researcher at Stanford University}\hfill\textbf{2016 - Now}\\
+{Hosted by Percy Liang and Moses Charikar}\vspace{3pt}\\
+{\bf Intern at Baidu}\hfill\textbf{Winter, 2015}\\
+{Project: burst detection in web search}\vspace{3pt}\\
+{\bf Intern at Microsoft Research Redmond}\hfill\textbf{Summer, 2014}\\
+{Project: convex optimization}\vspace{3pt}\\
+{\bf Intern at Google Mountain View}\hfill\textbf{Summer, 2013}\\
+{Project: personalized recommender systems}\vspace{3pt}\\
+{\bf Intern at Microsoft Research Asia}\hfill\textbf{2010 - 2011}\\
+{Project: click modeling for web search and online advertising}
+
+{\Large\bf Selected Awards \& Honors}
+
+\vspace{-5pt}
+\textbf{2017}~~~~~~~~Best Paper Award, Conference on Learning Theory (COLT).\\
+\textbf{2016}~~~~~~~~Outstanding Reviewer Award, International Conference on Machine Learning (ICML).\\
+\textbf{2015}~~~~~~~~Baidu Fellowship (awards 8 PhD students every year worldwide).\\
+\textbf{2013}~~~~~~~~Microsoft Research PhD Fellowship Finalist.\\
+\textbf{2011}~~~~~~~~Outstanding Undergraduate Dissertation Award, Tsinghua University.\\
+\textbf{2006}~~~~~~~~Silver Medal in Asian Physics Olympiad.\\
+\textbf{2006}~~~~~~~~Gold Medal in Chinese Physics Olympiad ($5^{\rm{th}}$ among 400,000 participants).
+
+{\bf\Large Research Projects}
+
+My research explores the frontiers of Artificial Intelligence by developing algorithms, building systems and proposing fundamental theory. Below is a list of projects that I have been working on (with publication references):
+
+\newpage
+\vspace{-10pt}
+\paragraph{Natural language processing}
+\begin{my_item}
+\item Semantic parsing for question answering systems [\ref{macro-emnlp17}].
+\begin{my_item}
+\item New efficient algorithm for parsing natural language into logical forms.
+\item 11x-16x faster and 13\% more accurate than state-of-the-art.
+\end{my_item}
+\end{my_item}
+
+\vspace{-10pt}
+\paragraph{Machine learning and optimization}
+\begin{my_item}
+\item Deep learning and non-convex optimization [\ref{convexified-icml17},\ref{a-hitting-colt17},\ref{on-the-learnability-aistats17},\ref{local-nips16},\ref{l1-icml16}].
+\begin{my_item}
+\item Algorithms for non-convex optimization (with applications to deep learning).
+\item Stronger optimality guarantees; improved empirical performance on DNN/CNN/LSTM.
+\end{my_item}
+\item Convex optimization [\ref{stochastic-jmlr},\ref{stochastic-icml15}].
+\begin{my_item}
+\item Algorithm for convex optimization.
+\item Superior efficiency: orders-of-magnitude faster than SGD in theory and in practice.
+\end{my_item}
+\item Crowdsourcing [\ref{spectral-jmlr},\ref{spectral-nips14}].
+\begin{my_item}
+\item Algorithm for estimating true labels from noisy crowdsourced data.
+\item Optimality guarantee: first algorithm to achieve the best possible statistical rate.
+\end{my_item}
+\item Personalized recommender systems [\ref{taxonomy-wsdm14}].
+\begin{my_item}
+\item Non-parametric language model for characterizing very sparse user-item relations.
+\item Improved the quality of online-shopping recommendation.
+\end{my_item}
+\item Click modeling for web search [\ref{understanding-wsdm12},\ref{user-kdd11},\ref{characterize-www11},\ref{learning-cikm10},\ref{explore-cikm10},\ref{incorporating-sigir10}]
+\begin{my_item}
+\item Data mining from the massive search click log.
+\item Improved Microsoft Bing's ranking quality (NDCG metric) by $\sim1\%$. 
+\end{my_item}
+\end{my_item}
+
+\vspace{-10pt}
+\paragraph{Distributed computing}
+\begin{my_item}
+\item Distributed algorithms for machine learning [\ref{divide-jmlr},\ref{communication-jmlr},\ref{distributed-icml15},\ref{communication-icml15},\ref{divide-colt13},\ref{communication-nips12}].
+\begin{my_item}
+\item Communication-efficient algorithms for distributed machine learning on big clusters.
+\item Optimal guarantee: best possible accuracy, least possible computation and communication.
+\end{my_item}
+\item Foundamental theory of distributed computing [\ref{lower-colt14},\ref{information-nips13},\ref{optimality}].
+\begin{my_item}
+\item Understanding the foundamental trade-offs between communication, computation and statistical accuracy for an arbitrary distributed system.
+\end{my_item}
+\item Programming interface for parallelizing stochastic algorithms [\ref{splash}].
+\begin{my_item}
+\item A user-friendly framework for implementing parallel online algorithms on Spark.
+\item Open source project: received 80+ Github stars.
+\end{my_item}
+\end{my_item}
+
+\vspace{-10pt}
+\paragraph{Other projects}
+\begin{my_item}
+\item Theoretical statistics [\ref{optimality-ejs},\ref{on-bayes-jmlr}].
+\item Theoretical computer science [\ref{the-antimagicness-tcs},\ref{a-new-isaim10}].
+\end{my_item}
+
+{\bf\Large Manuscripts}
+\vspace{5pt}
+
+\begin{enumerate}[label={[M\arabic*]}, ref={M\arabic*}]
+\item \label{splash}\textbf{Y. Zhang} and MI. Jordan. Splash: User-friendly Programming Interface for Parallelizing Stochastic Algorithms. \emph{arXiv:1506.07552}, 2015.
+
+\item J. Duchi, MI. Jordan, M. Wainwright and \textbf{Y. Zhang} (alpha-beta order). Optimality Guarantees for Distributed Statistical Estimation. \emph{arXiv:1405.0782}, 2014.\label{optimality}
+\end{enumerate}
+
+{\bf\Large Journal Publications}
+\vspace{5pt}
+
+\begin{enumerate}[label={[J\arabic*]}, ref={J\arabic*}]
+
+\item \textbf{Y. Zhang} and L. Xiao. Stochastic Primal-Dual Coordinate Method for Regularized Empirical Risk Minimization.
+\emph{Journal of Machine Learning Research}.\label{stochastic-jmlr}
+
+\item \textbf{Y. Zhang}, M. Wainwright and MI. Jordan. Optimal prediction for sparse linear models? Lower bounds for coordinate-separable M-estimators.\label{optimality-ejs}
+\emph{Electronic Journal of Statistics}.
+
+\item X. Chen, A. Guntuboyina and \textbf{Y. Zhang} (alpha-beta order). On Bayes Risk Lower Bounds.
+\emph{Journal of Machine Learning Research}.\label{on-bayes-jmlr}
+
+\item \textbf{Y. Zhang}, X. Chen, D. Zhou and MI. Jordan. Spectral Methods meet EM: A Provably Optimal Algorithm for Crowdsourcing.
+\emph{Journal of Machine Learning Research}.\label{spectral-jmlr}
+
+\item \textbf{Y. Zhang}, J. Duchi and M. Wainwright. Divide and Conquer Kernel Ridge Regression: A Distributed Algorithm with Minimax Optimal Rates.
+\emph{Journal of Machine Learning Research}.\label{divide-jmlr}
+
+\item \textbf{Y. Zhang}, J. Duchi and M. Wainwright. Communication-Efficient Algorithms for Statistical Optimization.
+\emph{Journal of Machine Learning Research}.\label{communication-jmlr}
+
+\item \textbf{Y. Zhang} and X. Sun. The Antimagicness of the Cartesian Product of Graphs.
+\emph{Theoretical Computer Science}.\label{the-antimagicness-tcs}
+\end{enumerate}
+
+{\bf\Large Conference Publications}
+\vspace{5pt}
+
+\begin{enumerate}[label={[C\arabic*]}, ref={C\arabic*}]
+
+\item  \textbf{Y. Zhang}, P. Pasupat, P. Liang. Macro Grammars and Holistic Triggering for Efficient Semantic Parsing.
+\emph{Empirical Methods on Natural Language Processing (EMNLP)}, 2017. \label{macro-emnlp17}
+
+\item  \textbf{Y. Zhang}, P. Liang, M. Wainwright. Convexified Convolutional Neural Networks.
+\emph{International Conference on Machine Learning (ICML)}, 2017. \label{convexified-icml17}
+
+\item  \textbf{Y. Zhang}, P. Liang, M. Charikar. A Hitting Time Analysis of Stochastic Gradient Langevin Dynamics.
+\emph{Conference on Learning Theory (COLT)}, 2017 {\bf (Best paper award)}. \label{a-hitting-colt17}
+
+\item \textbf{Y. Zhang}, JD. Lee, M. Wainwright and MI. Jordan. On the Learnability of Fully-connected Neural Networks.
+\emph{Artificial Intelligence and Statistics (AISTATS)}, 2017. \label{on-the-learnability-aistats17}
+
+\item C. Jin, {\bf Y. Zhang}, S. Balakrishnan, M. Wainwright, MI. Jordan.  
+Local Maxima in the Likelihood of Gaussian Mixture Models: Structural Results and Algorithmic Consequences.
+\emph{Neural Information Processing Systems (NIPS)}, 2016. \label{local-nips16}
+
+\item \textbf{Y. Zhang}, JD. Lee, MI. Jordan. $\ell_1$-regularized Neural Networks are Improperly Learnable in Polynomial Time.
+\emph{International Conference on Machine Learning (ICML)}, 2016. \label{l1-icml16}
+
+\item \textbf{Y. Zhang}, M. Wainwright and MI. Jordan. Distributed Estimation of Generalized Matrix Rank: Efficient Algorithms and Lower Bounds.
+\emph{International Conference on Machine Learning (ICML)}, 2015. \label{distributed-icml15}
+
+\item \textbf{Y. Zhang} and L. Xiao. DiSCO: Communication-Efficient Distributed Optimization of Self-Concordant Loss.
+\emph{International Conference on Machine Learning (ICML)}, 2015. \label{communication-icml15}
+
+\item \textbf{Y. Zhang} and L. Xiao. Stochastic Primal-Dual Coordinate Method for Regularized Empirical Risk Minimization.
+\emph{International Conference on Machine Learning (ICML)}, 2015.\label{stochastic-icml15}
+
+\item \textbf{Y. Zhang}, X. Chen, D. Zhou and MI. Jordan. Spectral Methods meet EM: A Provably Optimal Algorithm for Crowdsourcing.
+\emph{Neural Information Processing Systems (NIPS)}, 2014. \textbf{(Spotlight presentation, 4.8\% acceptance rate)}
+\label{spectral-nips14}
+
+\item \textbf{Y. Zhang}, M. Wainwright and MI. Jordan. Lower Bounds on the Performance of Polynomial-time Algorithms for Sparse Linear Regression. \emph{Conference on Learning Theory (COLT)}, 2014. \label{lower-colt14}
+
+\item \textbf{Y. Zhang}, A. Ahmed, V. Josifovski and A. Smola. Taxonomy Discovery for Personalized Recommendation. \emph{ACM International Conference on Web Search and Data Mining (WSDM)}, 2014. \label{taxonomy-wsdm14}
+
+\item \textbf{Y. Zhang}, J. Duchi, M. Wainwright and MI. Jordan. Information-theoretic Lower Bounds for Distributed Statistical Estimation with Communication Constraints.
+\emph{Neural Information Processing Systems (NIPS)}, 2013. \textbf{(Oral presentation, 1.4\% acceptance rate)}
+\label{information-nips13}
+
+\item  \textbf{Y. Zhang}, J. Duchi and M. Wainwright. Divide and Conquer Kernel Ridge Regression.
+\emph{Conference on Learning Theory (COLT)}, 2013. \label{divide-colt13}
+
+\item  \textbf{Y. Zhang}, J. Duchi and M. Wainwright. Communication-Efficient Algorithms for Statistical Optimization.
+\emph{Neural Information Processing Systems (NIPS)}, 2012. \label{communication-nips12}
+
+\item  W. Chen, D. Wang, \textbf{Y. Zhang} and Q. Yang. Understanding Click Noise: A Noise-aware Click Model for Web Search.
+\emph{ACM International Conference on Web Search and Data Mining (WSDM)}, 2012. \label{understanding-wsdm12}
+
+\item  \textbf{Y. Zhang}, W, Chen and D, Wang, Q. Yang. User-click Modeling for Understanding and Predicting Search-behavior.
+\emph{ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)}, 2011.\label{user-kdd11}
+\item B. Hu, \textbf{Y. Zhang}, G. Wang, Q. Yang, W. Chen. Characterize Search Intent Diversity into Click Models.
+\emph{International World Wide Web Conference (WWW)}, 2011. \label{characterize-www11}
+
+\item \textbf{Y. Zhang}, D. Wang, G. Wang, W. Chen, Z. Zhang, B. Hu and L. Zhang. Learning Click Model via Probit Bayesian Inference.
+\emph{ACM International Conference on Information and Knowledge Management (CIKM)}, 2010. \label{learning-cikm10}
+
+\item D. Wang, W. Chen, G. Wang, \textbf{Y Zhang} and B. Hu. Explore Click Models for Search Ranking.
+\emph{ACM International Conference on Information and Knowledge Management (CIKM)}, short paper, 2010. \label{explore-cikm10}
+
+\item F. Zhong, D. Wang, G. Wang, W. Chen, \textbf{Y. Zhang}, Z. Chen and H. Wang. Incorporating Post-Click Behaviors Into a Click Model.
+\emph{Annual International ACM SIGIR Conference (SIGIR)}, 2010. \label{incorporating-sigir10}
+
+\item \textbf{Y. Zhang} and L. Zhang. Extracting Independent Rules: a New Perspective of Boosting. 
+\emph{International Symposium on Artificial Intelligence and Mathematics (ISAIM)}, 2010. \label{a-new-isaim10}
+\end{enumerate}
+
+{\Large\bf Teaching}
+
+\vspace{-5pt}
+Graduate Student Instructor, Introduction to machine learning, UC Berkeley \hfill\textbf{Spring, 2015}\\
+Graduate Student Instructor, Randomized algorithms for matrices and data, UC Berkeley \hfill\textbf{Fall, 2013}
+
+{\Large\bf Service}
+
+\vspace{-5pt}
+{\bf Journal Reviewer:} Journal of Machine Learning Research, Annals of Statistics, Mathematical Programming, ACM Transactions on the Web. \\
+{\bf Conference Reviewer:} ICML (2013 - ), NIPS (2013 - ), AISTAT (2015 - ), IJCAI (2015 - ).
+
+{\Large\bf Programming}
+
+\vspace{-5pt}
+Capable of Python, C/C++, C\#, Java, Scala, \textsc{Matlab}.
+
+{\Large\bf References}
+
+\begin{tabular}{ll}
+\begin{minipage}{0.5\textwidth}
+{\bf Michael I. Jordan}\\
+Pehong Chen Distinguished Professor\\
+EECS and Statistics, UC Berkeley\\
+{\tt jordan@cs.berkeley.edu}
+\end{minipage}&
+\begin{minipage}{0.5\textwidth}
+{\bf Martin J. Wainwright}\\
+Professor\\
+EECS and Statistics, UC Berkeley\\
+{\tt wainwrig@eecs.berkeley.edu}
+\end{minipage}\\\\
+\begin{minipage}{0.5\textwidth}
+{\bf Lin Xiao}\\
+Principle Researcher\\
+Machine Learning Department\\
+Microsoft Research Redmond\\
+{\tt lin.xiao@microsoft.com}
+\end{minipage}&
+\begin{minipage}{0.5\textwidth}
+{\bf Percy Liang}\\
+Assistant Professor\\
+Computer Science Department\\
+Stanford University\\
+{\tt pliang@cs.stanford.edu}
+\end{minipage}
+\end{tabular}
+
+\end{resume}
+\end{document}
