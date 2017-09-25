@@ -1,7 +1,5 @@
-\documentclass{res} % default is 10 pt
-%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
-%\usepackage{newcent}   % uses new century schoolbook postscript font 
-\setlength{\textheight}{8.5in} % increase text height to fit resume on 1 page
+\documentclass{res}
+\setlength{\textheight}{8.6in} % increase text height to fit resume on 1 page
 \newsectionwidth{0pt}  % So the text is not indented under section headings
 \usepackage[colorlinks,urlcolor=blue,linkcolor=blue,anchorcolor=blue,citecolor=blue]{hyperref}
 \usepackage{enumitem}
@@ -70,16 +68,15 @@ Bachelor of Engineering in Computer Science\\
 
 {\bf\Large Research Projects}
 
-My research interest lies in the generic field of \emph{artificial intelligence}. My past projects span machine learning, natural language processing and statistical methods. They consist of novel algorithms, fundamental theory and practical software. Below is a list of my research projects (with publication references):
+My research interest lies in the field of \emph{artificial intelligence}. My past projects spanned machine learning, natural language processing and statistical methods. They consist of new algorithms, fundamental theory and practical software. Below is a list of projects that I have been working on (with publication references):
 
-\newpage
 \vspace{-10pt}
 \paragraph{Natural language processing}
 \begin{my_item}
 \item Semantic parsing for question answering systems [\ref{macro-emnlp17}].
 \begin{my_item}
 \item Efficient algorithm for parsing natural language into executable logical forms.
-\item 11x-16x faster and 13\% more accurate than the state-of-the-art parser.
+\item Impact: 11x-16x faster and 13\% more accurate than the state-of-the-art parser.
 \end{my_item}
 \end{my_item}
 
@@ -89,27 +86,27 @@ My research interest lies in the generic field of \emph{artificial intelligence}
 \item Deep learning and non-convex optimization [\ref{convexified-icml17},\ref{a-hitting-colt17},\ref{on-the-learnability-aistats17},\ref{local-nips16},\ref{l1-icml16}].
 \begin{my_item}
 \item Algorithms for non-convex optimization (with applications to deep learning).
-\item Stronger theoretical guarantee and improved empirical performance on DNN/CNN/LSTM.
+\item Impact: stronger theoretical guarantee and improved empirical performance on DNN/CNN/LSTM.
 \end{my_item}
 \item Convex optimization [\ref{stochastic-jmlr},\ref{stochastic-icml15}].
 \begin{my_item}
-\item Algorithm for convex optimization.
-\item Superior efficiency: orders-of-magnitude faster than SGD in theory and in practice.
+\item Efficient algorithm for convex optimization.
+\item Impact: orders-of-magnitude faster convergence than SGD in theory/practice.
 \end{my_item}
 \item Crowdsourcing [\ref{spectral-jmlr},\ref{spectral-nips14}].
 \begin{my_item}
 \item Algorithm for estimating the true labels from noisy crowdsourced data.
-\item First algorithm to achieve the best possible statistical rate.
+\item Impact: first algorithm to guarantee the best possible statistical accuracy.
 \end{my_item}
 \item Personalized recommender systems [\ref{taxonomy-wsdm14}].
 \begin{my_item}
 \item Non-parametric model for modeling very sparse user-item relations.
-\item Improved the quality of online-shopping recommendation.
+\item Impact: improved state-of-the-art models by 9\%-12\% on the quality of recommending less frequent items for online shopping.
 \end{my_item}
 \item Web search and online advertising [\ref{understanding-wsdm12},\ref{user-kdd11},\ref{characterize-www11},\ref{learning-cikm10},\ref{explore-cikm10},\ref{incorporating-sigir10}]
 \begin{my_item}
-\item Data mining from massive search \& ads click logs.
-\item Improved Microsoft Bing's ranking quality (NDCG metric) by $\sim1\%$. 
+\item Learning from massive search \& ads click logs to improve ranking quality.
+\item Impact: currently in production as a part of Microsoft Bing. 
 \end{my_item}
 \end{my_item}
 
@@ -119,16 +116,17 @@ My research interest lies in the generic field of \emph{artificial intelligence}
 \item Distributed algorithms for machine learning [\ref{divide-jmlr},\ref{communication-jmlr},\ref{distributed-icml15},\ref{communication-icml15},\ref{divide-colt13},\ref{communication-nips12}].
 \begin{my_item}
 \item Communication-efficient algorithms for distributed machine learning on large clusters.
-\item Optimal guarantee: best possible accuracy, least possible computation and communication.
+\item Impact: guarantee the best possible accuracy and the least possible computation/communication.
 \end{my_item}
 \item Foundamental theory of distributed computing [\ref{lower-colt14},\ref{information-nips13},\ref{optimality}].
 \begin{my_item}
 \item Understanding the foundamental trade-offs between communication, computation and statistical accuracy on any distributed system.
+\item Impact: seminal papers on the study of communication complexity of distributed statistical estimation.
 \end{my_item}
 \item Programming interface for parallelizing stochastic algorithms [\ref{splash}].
 \begin{my_item}
-\item A user-friendly framework for implementing parallel online algorithms on Spark.
-\item Open source project: received 80+ Github stars.
+\item A user-friendly framework for parallelizing online algorithms on Spark.
+\item Impact: component of Berkeley Data Analytics Stack (BDAS), 80+ Github stars.
 \end{my_item}
 \end{my_item}
 
