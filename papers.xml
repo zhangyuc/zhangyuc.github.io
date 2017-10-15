@@ -19,12 +19,19 @@
     </category>
     <category>
         <name>Journal Publications</name>
-
+        
         <paper>
             <title>Stochastic Primal-Dual Coordinate Method for Regularized Empirical Risk Minimization</title>
             <link><text>arXiv</text><url>http://arxiv.org/abs/1409.3257</url></link>
             <authors>Y. Zhang, L. Xiao</authors>
             <journal>Journal of Machine Learning Research</journal>
+        </paper>
+
+        <paper>
+            <title>A Note on the Approximate Admissibility of Regularized Estimators in the Gaussian Sequence Model</title>
+            <link><text>arXiv</text><url>https://arxiv.org/abs/1703.00542</url></link>
+            <authors>X. Chen, A. Guntuboyina, Y. Zhang</authors>
+            <journal>Electronic Journal of Statistics</journal>
         </paper>
 
         <paper>
