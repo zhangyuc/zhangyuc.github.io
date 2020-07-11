@@ -19,9 +19,7 @@
 % Draw a horizontal line the whole width of resume:
  \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
 % address begins here
-\address{\bf\small  CONTACT\\\url{https://zhangyuc.github.io/}\\
- Email: zhangyuc@cs.stanford.edu\\ Phone: (+1)-510-423-1353}
-\address{\bf\small  ADDRESS\\Gates Computer Science 254,\\Stanford University,\\Stanford, CA 94305.}
+\textbf{Email}: zhangyuc@gmail.com \hfill \textbf{Phone}: (+1)-510-423-1353
 
 \begin{resume}
 
@@ -29,107 +27,70 @@
 
 \vspace{-5pt}
 \textbf{University of California, Berkeley}\hfill\textbf{2011 - 2016}\\
-Doctor of Philosophy in Computer Science\\
-{Advised by Michael I. Jordan and Martin J. Wainwright}
+Ph.D. in Computer Science\\
+{Advised by Michael I. Jordan and Martin J. Wainwright}\\
+Research: distributed machine learning, optimization algorithms, deep learning theory
 
 \vspace{-5pt}
 \textbf{University of California, Berkeley} \hfill\textbf{2011 - 2013}\\
-Master of Arts in Statistics
+Master in Statistics
 
 \vspace{-5pt}
 \textbf{Tsinghua University}\hfill\textbf{2007 - 2011}\\
-Bachelor of Engineering in Computer Science\\
-{Supervised by Andrew C. Yao}
+Bachelor in Computer Science\\
+{Supervised by Andrew C. Yao (Yao Class)}
 
-{\Large\bf Employment}
+{\Large\bf Employment History}
 
 \vspace{-5pt}
-{\bf Senior Research Scientist at Semantic Machines, Inc}\hfill\textbf{2018 - Now}
-\vspace{3pt}\\
+{\bf Senior Researcher at Microsoft}\hfill\textbf{2018 - Now}\\
+\vspace{-10pt}
+\begin{my_item}
+\item My team builds task-oriented dialogue systems that go beyond understanding commands, intents and slots. Our bot understands very complex natural language queries, and drives dynamic conversations of many turns to communicate, collaborate, and accomplish tasks.
+\item Serving MS Office and 3rd-party parteners with AI assiatant and customer service bots (\href{https://v.youku.com/v_show/id_XNDE3MTExODQ0MA}{demo link}).
+\item I lead the design/development of our dialogue system's core representation and modeling architecture.
+\end{my_item}
+\vspace{-5pt}
+{\bf Senior Research Scientist at Semantic Machines}\hfill\textbf{2018}\\
+\vspace{-10pt}
+\begin{my_item}
+\item We are a start-up company focusing on conversational AI technologies, made of world-class researchers and engineers, including professors of Stanford, UC Berkeley, MIT, as well as core contributors to the AI assistant technology for Apple and Google.
+\item Acquired by Microsoft on June, 2018.
+\end{my_item}
+\vspace{-5pt}
 {\bf Post-doc Researcher at Stanford University}\hfill\textbf{2016 - 2018}\\
-{Hosted by Percy Liang and Moses Charikar}\vspace{3pt}\\
-{\bf Intern at Baidu}\hfill\textbf{Winter, 2015}\\
-{Project: burst detection in web search}\vspace{3pt}\\
-{\bf Intern at Microsoft Research Redmond}\hfill\textbf{Summer, 2014}\\
-{Project: convex optimization}\vspace{3pt}\\
-{\bf Intern at Google Mountain View}\hfill\textbf{Summer, 2013}\\
-{Project: personalized recommender systems}\vspace{3pt}\\
-{\bf Intern at Microsoft Research Asia}\hfill\textbf{2010 - 2011}\\
-{Project: click modeling for web search and online advertising}
-
-{\Large\bf Selected Awards \& Honors}
-
-\vspace{-5pt}
-\textbf{2017}~~~~~~~~Best Paper Award, Conference on Learning Theory (COLT).\\
-\textbf{2016}~~~~~~~~Outstanding Reviewer Award, International Conference on Machine Learning (ICML).\\
-\textbf{2015}~~~~~~~~Baidu Fellowship (awards 8 PhD students every year worldwide).\\
-\textbf{2013}~~~~~~~~Microsoft Research PhD Fellowship Finalist.\\
-\textbf{2011}~~~~~~~~Outstanding Undergraduate Dissertation Award, Tsinghua University.\\
-\textbf{2006}~~~~~~~~Silver Medal in Asian Physics Olympiad.\\
-\textbf{2006}~~~~~~~~Gold Medal in Chinese Physics Olympiad ($5^{\rm{th}}$ among 400,000 participants).
+{Research: question answering, semantic parsing, deep learning theory}\vspace{3pt}\\
+{\bf Internships}\hfill\textbf{2010 - 2016}\\
+Microsoft Research, Google, Baidu
 
 {\bf\Large Research Projects}
 
-My research interest lies in the field of \emph{artificial intelligence}. My past projects spanned machine learning, natural language processing and statistical methods. They consist of new algorithms, fundamental theory and practical software. Below is a list of projects that I have been working on (with publication references):
+Below is a list of my research projects and their patent/publication references:
 
 \vspace{-10pt}
 \paragraph{Natural language processing}
 \begin{my_item}
-\item Semantic parsing for question answering systems [\ref{macro-emnlp17}].
-\begin{my_item}
-\item Efficient algorithm for parsing natural language into executable logical forms.
-\item Impact: 11x-16x faster and 13\% more accurate than the state-of-the-art parser.
-\end{my_item}
+\item Task-oriented dialogue systems [\ref{task-tacl}, \ref{updating-patent}, \ref{reponse-patent}].
+\item Semantic parsing for question answering [\ref{macro-emnlp17}].
 \end{my_item}
 
 \vspace{-10pt}
 \paragraph{Machine learning and optimization}
 \begin{my_item}
 \item Deep learning and non-convex optimization [\ref{convexified-icml17},\ref{a-hitting-colt17},\ref{on-the-learnability-aistats17},\ref{local-nips16},\ref{l1-icml16}].
-\begin{my_item}
-\item Algorithms for non-convex optimization (with applications to deep learning).
-\item Impact: stronger theoretical guarantee and improved empirical performance on DNN/CNN/LSTM.
-\end{my_item}
 \item Convex optimization [\ref{stochastic-jmlr},\ref{stochastic-icml15}].
-\begin{my_item}
-\item Efficient algorithm for convex optimization.
-\item Impact: orders-of-magnitude faster convergence than SGD in theory/practice.
-\end{my_item}
 \item Crowdsourcing [\ref{spectral-jmlr},\ref{spectral-nips14}].
-\begin{my_item}
-\item Algorithm for estimating the true labels from noisy crowdsourced data.
-\item Impact: first algorithm to guarantee the best possible statistical accuracy.
-\end{my_item}
+\item Robust machine learning [\ref{defending-aistats17}].
 \item Personalized recommender systems [\ref{taxonomy-wsdm14}].
-\begin{my_item}
-\item Non-parametric model for modeling very sparse user-item relations.
-\item Impact: improved state-of-the-art models by 9\%-12\% on the quality of recommending less frequent items for online shopping.
-\end{my_item}
 \item Web search and online advertising [\ref{understanding-wsdm12},\ref{user-kdd11},\ref{characterize-www11},\ref{learning-cikm10},\ref{explore-cikm10},\ref{incorporating-sigir10}]
-\begin{my_item}
-\item Learning from massive search \& ads click logs to improve ranking quality.
-\item Impact: currently in production as a part of Microsoft Bing. 
-\end{my_item}
 \end{my_item}
 
 \vspace{-10pt}
 \paragraph{Distributed computing}
 \begin{my_item}
 \item Distributed algorithms for machine learning [\ref{divide-jmlr},\ref{communication-jmlr},\ref{distributed-icml15},\ref{communication-icml15},\ref{divide-colt13},\ref{communication-nips12}].
-\begin{my_item}
-\item Communication-efficient algorithms for distributed machine learning on large clusters.
-\item Impact: guarantee the best possible accuracy and the least possible computation/communication.
-\end{my_item}
-\item Foundamental theory of distributed computing [\ref{lower-colt14},\ref{information-nips13},\ref{optimality}].
-\begin{my_item}
-\item Understanding the foundamental trade-offs between communication, computation and statistical accuracy on any distributed system.
-\item Impact: seminal papers on the study of communication complexity of distributed statistical estimation.
-\end{my_item}
+\item Foundamental theory of distributed computing [\ref{lower-colt14},\ref{information-nips13}].
 \item Programming interface for parallelizing stochastic algorithms [\ref{splash}].
-\begin{my_item}
-\item A user-friendly framework for parallelizing online algorithms on Spark.
-\item Impact: component of Berkeley Data Analytics Stack (BDAS), 80+ Github stars.
-\end{my_item}
 \end{my_item}
 
 \vspace{-10pt}
@@ -139,19 +100,21 @@ My research interest lies in the field of \emph{artificial intelligence}. My pas
 \item Theoretical computer science [\ref{the-antimagicness-tcs},\ref{a-new-isaim10}].
 \end{my_item}
 
-{\bf\Large Manuscripts}
+{\bf\Large Patents}
 \vspace{5pt}
 
-\begin{enumerate}[label={[M\arabic*]}, ref={M\arabic*}]
-\item \label{splash}\textbf{Y. Zhang} and MI. Jordan. Splash: User-friendly Programming Interface for Parallelizing Stochastic Algorithms. \emph{arXiv:1506.07552}, 2015.
-
-\item J. Duchi, MI. Jordan, M. Wainwright and \textbf{Y. Zhang} (alpha-beta order). Optimality Guarantees for Distributed Statistical Estimation. \emph{arXiv:1405.0782}, 2014.\label{optimality}
+\begin{enumerate}[label={[P\arabic*]}, ref={P\arabic*}]
+\item \label{updating-patent} \textbf{Y. Zhang}, J. Wolfe, A. Pauls and D. Hall. Updating Constraints For Computerized Assistant Actions. \emph{U.S.~Patent}, Filed by Microsoft on March 30, 2020.
+\item \label{reponse-patent} J. Andreas, A. Vorobev, A. Guo, J. Krishnamurthy, J. Bufe, J. Rusak and \textbf{Y. Zhang}. Response Generation For Conversational Computing Interface, \emph{U.S.~Patent}, Filed by Microsoft on August 12, 2019.
 \end{enumerate}
 
 {\bf\Large Journal Publications}
 \vspace{5pt}
 
 \begin{enumerate}[label={[J\arabic*]}, ref={J\arabic*}]
+
+\item \textbf{Y. Zhang} and the Semantic Machines team (alpha-beta order). Task-Oriented Dialogue as Dataflow Synthesis.
+\emph{Transactions of the Association for Computational Linguistics}.\label{task-tacl}
 
 \item \textbf{Y. Zhang} and L. Xiao. Stochastic Primal-Dual Coordinate Method for Regularized Empirical Risk Minimization.
 \emph{Journal of Machine Learning Research}.\label{stochastic-jmlr}
@@ -182,6 +145,9 @@ My research interest lies in the field of \emph{artificial intelligence}. My pas
 \vspace{5pt}
 
 \begin{enumerate}[label={[C\arabic*]}, ref={C\arabic*}]
+
+\item  \textbf{Y. Zhang}, P. Liang. Defending Against Whitebox Adversarial Attacks via Randomized Discretization.
+\emph{Artificial Intelligence and Statistics (AISTATS)}, 2019. \label{defending-aistats17}
 
 \item  \textbf{Y. Zhang}, P. Pasupat, P. Liang. Macro Grammars and Holistic Triggering for Efficient Semantic Parsing.
 \emph{Empirical Methods on Natural Language Processing (EMNLP)}, 2017. \label{macro-emnlp17}
@@ -250,53 +216,34 @@ Local Maxima in the Likelihood of Gaussian Mixture Models: Structural Results an
 \emph{International Symposium on Artificial Intelligence and Mathematics (ISAIM)}, 2010. \label{a-new-isaim10}
 \end{enumerate}
 
+{\bf\Large Technical Reports}
+\vspace{5pt}
+
+\begin{enumerate}[label={[T\arabic*]}, ref={T\arabic*}]
+\item \label{splash}\textbf{Y. Zhang} and MI. Jordan. Splash: User-friendly Programming Interface for Parallelizing Stochastic Algorithms. \emph{arXiv:1506.07552}, 2015.
+\end{enumerate}
+
+{\Large\bf Selected Awards \& Honors}
+
+\vspace{-5pt}
+\textbf{2017}~~~~~~~~Best Paper Award, Conference on Learning Theory (COLT).\\
+\textbf{2016}~~~~~~~~Outstanding Reviewer Award, International Conference on Machine Learning (ICML).\\
+\textbf{2015}~~~~~~~~Baidu Fellowship (awards 8 PhD students every year worldwide).\\
+\textbf{2013}~~~~~~~~Microsoft Research PhD Fellowship Finalist.\\
+\textbf{2006}~~~~~~~~Silver Medal in Asian Physics Olympiad.\\
+\textbf{2006}~~~~~~~~Gold Medal in Chinese Physics Olympiad ($5^{\rm{th}}$ among 400,000 participants).
+
 {\Large\bf Teaching}
 
 \vspace{-5pt}
-Graduate Student Instructor, Introduction to machine learning, UC Berkeley \hfill\textbf{Spring, 2015}\\
-Graduate Student Instructor, Randomized algorithms for matrices and data, UC Berkeley \hfill\textbf{Fall, 2013}
+Graduate Student Instructor, Introduction to machine learning, UC Berkeley \hfill\textbf{2015}\\
+Graduate Student Instructor, Randomized algorithms for matrices and data, UC Berkeley \hfill\textbf{2013}
 
 {\Large\bf Service}
 
 \vspace{-5pt}
 {\bf Journal Reviewer:} Journal of Machine Learning Research, Annals of Statistics, Mathematical Programming, ACM Transactions on the Web. \\
 {\bf Conference Reviewer:} ICML (2013 - ), NIPS (2013 - ), AISTAT (2015 - ), IJCAI (2015 - ).
-
-{\Large\bf Programming}
-
-\vspace{-5pt}
-Capable of Python, C/C++, C\#, Java, Scala, \textsc{Matlab}.
-
-{\Large\bf References}
-
-\begin{tabular}{ll}
-\begin{minipage}{0.5\textwidth}
-{\bf Michael I. Jordan}\\
-Pehong Chen Distinguished Professor\\
-EECS and Statistics, UC Berkeley\\
-{\tt jordan@cs.berkeley.edu}
-\end{minipage}&
-\begin{minipage}{0.5\textwidth}
-{\bf Martin J. Wainwright}\\
-Professor\\
-EECS and Statistics, UC Berkeley\\
-{\tt wainwrig@eecs.berkeley.edu}
-\end{minipage}\\\\
-\begin{minipage}{0.5\textwidth}
-{\bf Lin Xiao}\\
-Principle Researcher\\
-Machine Learning Department\\
-Microsoft Research Redmond\\
-{\tt lin.xiao@microsoft.com}
-\end{minipage}&
-\begin{minipage}{0.5\textwidth}
-{\bf Percy Liang}\\
-Assistant Professor\\
-Computer Science Department\\
-Stanford University\\
-{\tt pliang@cs.stanford.edu}
-\end{minipage}
-\end{tabular}
 
 \end{resume}
 \end{document}
