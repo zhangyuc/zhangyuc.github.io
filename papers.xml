@@ -21,6 +21,15 @@
         <name>Journal Publications</name>
         
         <paper>
+            <title>Task-Oriented Dialogue as Dataflow Synthesis</title>
+            <link><text>pdf</text><url>https://arxiv.org/pdf/2009.11423.pdf</url></link>
+            <link><text>GitHub</text><url>https://github.com/microsoft/task_oriented_dialogue_as_dataflow_synthesis</url></link>
+            <link><text>SMCalFlow dataset and leaderboard</text><url>https://microsoft.github.io/task_oriented_dialogue_as_dataflow_synthesis/</url></link>
+            <authors>Y. Zhang and Microsoft Semantic Machines team (alpha-beta order)</authors>
+            <journal>Transactions of the ACL</journal>
+        </paper>
+
+        <paper>
             <title>Stochastic Primal-Dual Coordinate Method for Regularized Empirical Risk Minimization</title>
             <link><text>arXiv</text><url>http://arxiv.org/abs/1409.3257</url></link>
             <authors>Y. Zhang, L. Xiao</authors>
@@ -79,6 +88,14 @@
     </category>
     <category>
         <name>Conference Proceedings</name>
+
+        <paper>
+            <title>Defending Against Whitebox Adversarial Attacks via Randomized Discretization.</title>
+            <link><text>pdf</text><url>https://arxiv.org/pdf/1903.10586.pdf</url></link>
+            <link><text>CodaLab</text><url>https://worksheets.codalab.org/worksheets/0x822ba2f9005f49f08755a84443c76456/</url></link>
+            <authors>Y. Zhang, P. Liang</authors>
+            <journal>Artificial Intelligence and Statistics (AISTATS'19)</journal>
+        </paper>
 
 		<paper>
             <title>Macro Grammars and Holistic Triggering for Efficient Semantic Parsing</title>
